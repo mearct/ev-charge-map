@@ -56,3 +56,5 @@ See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quas
 # Yes, use yarn
 # cd ev-charge-map
 # yarn quasar dev --watch
+
+# vueRouterMode: 'hash' //from hash to history quasar.config.js
