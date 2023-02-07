@@ -33,3 +33,26 @@ quasar build
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
 # ev-charge-map
 # ev-charge-map
+
+
+
+# yarn create quasar ev-charge-map
+# App with Quasar CLI, let's go!
+# ev-charge-map
+# Quasar v2 (Vue 3 | latest and greatest)
+# Javascript
+# Quasar App CLI with Webpack
+# ev-charge-map
+# Ev Charge Map
+# Find Ev charge points for your journey
+# tester <mearct@gmail.com>
+# Sass with SCSS syntax
+# (*)   ESLint
+# (*)   State Management (Pinia)
+# ( )   State Management (Vuex) [DEPRECATED by Vue Team]
+# (*)   Axios
+# ( )   Vue-i18n
+# Standard - https://github.com/standard/standard
+# Yes, use yarn
+# cd ev-charge-map
+# yarn quasar dev --watch
