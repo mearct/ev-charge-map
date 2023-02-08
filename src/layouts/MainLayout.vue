@@ -1,6 +1,6 @@
 <template>
   <q-layout>
-    <q-header elevated class="bg-teal">
+    <q-header class="bg-teal">
       <q-toolbar>
 
         <q-toolbar-title> Ev Charge Map </q-toolbar-title>
