@@ -1,15 +1,13 @@
 <template>
   <q-page id="routeSelect">
     <q-toolbar class="text-white bg-teal-8">
-        <q-toolbar-title>
-          Toolbar
-        </q-toolbar-title>
-        <q-btn flat round dense icon="more_vert" />
+      <q-toolbar-title> Route </q-toolbar-title>
+      <q-btn to="/route/saved-routes" flat round dense icon="favorite" color="red" />
     </q-toolbar>
       <div class="form-style q-pa-md">
         <div class="text-h6 q-pb-md"> Where would you like to go? </div>
 
-          <q-input class="q-pt-md" outlined stack-label label="From">
+          <q-input outlined stack-label label="From">
             <template v-slot:append >
               <q-icon name="close" />
             </template>
@@ -20,7 +18,11 @@
               <q-icon name="close" />
             </template>
           </q-input>
-          <q-btn size="lg" class="full-width" color="black" label="Search" />
+
+          <div class="q-pt-md">
+            <q-btn size="lg" class="full-width" color="black" label="Search" />
+          </div>
+
       </div>
   </q-page>
 </template>
