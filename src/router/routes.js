@@ -9,7 +9,8 @@ const routes = [
         component: () => import('pages/RoutePage.vue'),
         children: [
           { path: '', component: () => import('pages/route/RouteSelect.vue') },
-          { path: 'add-route', component: () => import('pages/route/AddRoute.vue') }
+          { path: 'add-route', component: () => import('pages/route/AddRoute.vue') },
+          { path: 'save-routes', component: () => import('pages/route/SaveRoutes.vue') }
         ]
       }
     ]

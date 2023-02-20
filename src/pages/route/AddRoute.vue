@@ -4,8 +4,8 @@
         <q-toolbar-title> Add Route </q-toolbar-title>
         <q-btn to="/route/saved-routes" flat round dense icon="favorite" color="red" />
     </q-toolbar>
-    <q-scroll-area
-    q-scroll-area class="q-pa-md form-style" style="height: 500px; max-width: 400%;">
+
+    <q-scroll-area class="q-pa-md form-style" style="height: 500px; max-width: 400%;">
       <div class="text-h6 q-pb-md"> Save your favorite routes! </div>
       <span class="text-body1 q-pd-md"> Pick a name for this route </span>
 
