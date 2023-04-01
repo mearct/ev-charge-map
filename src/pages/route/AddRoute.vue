@@ -17,7 +17,7 @@
 
       <div class="text-body1 q-pt-md"> Save your favorite routes! </div>
 
-      <q-input class="q-pt-md" outlined stack-label label="From">
+      <q-input outlined stack-label label="From">
         <template v-slot:append >
           <q-icon name="close" />
         </template>
